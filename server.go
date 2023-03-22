@@ -9,7 +9,7 @@ import (
 
 func hello(w http.ResponseWriter, req *http.Request) {
 	fmt.Printf("got / request\n")
-	fmt.Fprintf(w, "hello\n")
+	fmt.Fprintf(w, "hello everyone\n")
 }
 
 func version(w http.ResponseWriter, req *http.Request) {
